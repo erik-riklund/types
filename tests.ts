@@ -5,7 +5,7 @@ type Equals<X, Y> =
     ? true
     : false;
 
-export function assert<T extends true>() {}
+function assert<T extends true>() {}
 
 // --- Type tests ---
 
