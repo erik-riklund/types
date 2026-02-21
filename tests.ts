@@ -1,4 +1,4 @@
-import type { Awaitable, Nullable, Unpack } from "@riklund/types";
+import type { Awaitable, Nullable, Unpack } from "./types.ts";
 
 type Equals<X, Y> =
   (<T>() => T extends X ? 1 : 2) extends <T>() => T extends Y ? 1 : 2
